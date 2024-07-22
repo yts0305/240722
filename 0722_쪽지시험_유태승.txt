@@ -1,0 +1,57 @@
+1. 다음코드의 출력 결과는 무엇인가?
+Queue que = new Queue();
+que.Enqueue(1);
+que.Enqueue(2);
+que.Enqueue(3);
+que.Enqueue(4);
+que.Enqueue(5);
+
+while (que.Count > 0)
+WriteLine(que.Dequeue());
+
+1
+2
+3
+4
+5
+
+2. 다음과 같은 결과를 출력하도록 아래의 코드를 완성하세요.
+
+회사 : Microsoft
+URL : www.microsoft.com
+
+ Hashtable ht = new Hashtable();
+ ht["회사"] = "Microsoft";
+ ht["URL"] = "www.microsoft.com";
+
+ Console.WriteLine($"회사 : {ht["회사"]}");
+ Console.WriteLine($"UPL : {ht["URL"]}");
+
+3. 다음 코드의 출력 결과는 무엇일까요?
+
+Stack stack = new Stack();
+stack.Push(1);
+stack.Push(2);
+stack.Push(3);
+stack.Push(4);
+stack.Push(5);
+
+while (stack.Count > 0)
+{
+    Console.WriteLine(stack.Pop());
+}
+
+5
+4
+3
+2
+1
+
+4. 다음 배열 선언 문장 중 올바르지 않은 것을 고르세요.
+
+1 int[] array = new string[3] { "안녕", "Hello", "Halo" };
+2 int[] array = new int[3] {1, 2, 3};
+3 int[] array = new int[] {1, 2, 3};
+4 int[] array = {1, 2, 3};
+
+1번
